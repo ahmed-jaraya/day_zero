@@ -1,0 +1,20 @@
+# Configurer le nom d'utilisateur
+
+git config --global user.name "Votre Nom"
+
+# Configurer l'adresse e-mail
+
+git config --global user.email "votre@email.com"
+
+git init
+git add .
+git commit -m "msg"
+git branch -M main
+git remote add origin https://github.com/ahmed-jaraya/day_zero.git
+git push -u origin main
+
+# update
+
+git add .
+git commit -m "update"
+git push
